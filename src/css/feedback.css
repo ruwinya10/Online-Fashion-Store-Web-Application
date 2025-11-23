@@ -1,0 +1,96 @@
+body {
+    font-family: 'popins';
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/backimg.jpg);
+    background-size: cover;
+    justify-content: center;
+    
+}
+
+
+main {
+    padding: 20px;
+    background-color: white;
+    max-width: 900px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 7px;
+    
+}
+
+h1 {
+    text-align: center;
+    color: rgb(46, 46, 95);
+    font-family: 'popins';
+}
+
+form {
+    margin-top: 20px;
+    align-content: center;
+
+}
+
+
+
+#para1 {
+    font-family:'popins';
+    font-size: large;
+} 
+
+#para2 {
+    color: rgb(76, 144, 146);
+    font-family: sans-serif;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+textarea {
+    width: 80%;
+    height: 85px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.stars span {
+    font-size: 50px;
+    cursor: pointer;
+    color:  #ccc;
+    padding-left:80px ;
+    padding-right: 40px;
+}
+
+.stars span.selected {
+    color: gold;
+
+}
+
+input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: rgb(171, 105, 127);
+    color: white;
+    font-family: 'popins';
+    font-size: x-large;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 80%;
+    border-radius: 4px;
+    
+}
+button:hover {
+    transform: scale(1.1);
+
+}

@@ -1,0 +1,30 @@
+body {
+    background-image: url(../images/add.jpg);
+    background-size: cover;
+}
+
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    font-family: 'popins';
+}
+
+form {
+    text-align: center;
+}
+
+label {
+    font-size: large;
+    
+}
+input {
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+}
+

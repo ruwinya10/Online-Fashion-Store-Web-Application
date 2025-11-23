@@ -1,0 +1,121 @@
+*{
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 102px;
+    height: 100vh;
+    padding: 0 1.7rem;
+    color: #fff;
+    overflow: auto;
+    transition: all 0.5s linear;
+    background-color: #2c3e50;
+}
+
+.sidebar:hover {
+    width: 300px;
+    transition: 0.5s;
+}
+
+.logo {
+    height: 80px;
+    padding: 5px;
+}
+
+.menu {
+    height: 100%;
+    position: relative;
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    padding: 1rem;
+    margin: 10px 0;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+.menu li:hover,
+.active {
+    background: #bdc3c7;
+}
+
+.menu a {
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+.menu a span {
+    overflow: hidden;
+}
+
+.menu a i {
+    font-size: 1.2rem;
+}
+
+.logout {
+    margin-top: auto;  /* Pushes the logout button to the bottom while staying within the sidebar */
+    width: 100%;
+    padding-bottom: 20px; 
+}
+
+.main {
+    padding: 1rem;
+    flex-grow: 1; 
+    overflow: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.title {
+    color: #2c3e50;
+}
+
+.logout a span {
+    display: none;  /* Hide text when the sidebar is collapsed */
+}
+
+.sidebar:hover .logout a span {
+    display: inline;  /* Show text when the sidebar expands */
+}
+
+button {
+    font-size: 17px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #2c3e50;
+    padding: 8px;
+    border: 1px solid #2c3e50;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+button:hover {
+    text-decoration: underline;
+    background-color: #3d6084;
+    transition: 0.1s;
+}

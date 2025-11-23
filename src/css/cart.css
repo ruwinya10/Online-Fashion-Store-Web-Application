@@ -1,0 +1,38 @@
+body{
+	font-family: 'Poppins', sans-serif;
+	background-size: 2500px;
+	overflow-x: hidden;
+}
+.heading{
+	padding-top:15px;
+	padding-bottom:15px;
+	font-size:35px;
+}
+#cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+#cart-table th, #cart-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.cart-summary {
+	padding-right:20px;
+    text-align: right;
+    margin-top: 20px;
+}
+#checkout{
+	background-color:#00008B;
+	color:white;
+	padding:10px 20px;
+	font-size:20px;
+	border:none;
+	border-radius:5px;
+}
+#subtotal{
+	font-size:25px;
+}

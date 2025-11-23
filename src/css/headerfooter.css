@@ -1,0 +1,121 @@
+body{
+	font-family:'Poppins', sans-serif;
+	margin: 0;
+}
+
+/*beginning of header*/
+
+.header{
+	width:100%;
+	height: 130px;
+	background-color : white; 
+	position: relative;
+}
+.logo_box{
+	width: 20%;
+	height: 130px;
+	background-color : white;
+	float: left;
+}
+.logo_box img{
+	position: absolute;
+	left: 65px;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+}
+
+.nav_bar{
+	width: 60%;
+	height: 130px;
+	background-color : white;
+	float: left;
+}
+.search{
+	position: relative;
+}
+.search input[type=text]{
+	width: 40%;
+	height: 40px;
+	box-sizing: border-box;
+	margin:15px 0 25px 0;
+	display: inline-block;
+	outline: none;
+	padding: 20px 30px 20px 30px;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+.search i{
+	position: absolute;
+	margin-top: 25px;
+	margin-left: 10px;
+}
+.nav_bar a{
+	color: black;
+	text-decoration: none;
+	margin: 20px;
+	padding: 8px 15px 8px 15px;
+}
+.nav_bar a:hover{
+	background-color: #ed1c24;
+	border-radius: 10px;
+}
+.nav_bar a:active{
+	background-color: #ed1c24;
+	border-radius: 10px;
+}
+.user-cart{
+	display:flex;
+	align-items:right;
+}
+.user-cart .icons{
+	display:flex;
+	flex-direction:column;
+	align-items:right;
+}
+.user-cart img{
+	margin-left:50px;
+	margin-top:35px;
+}
+
+/*<--header end-->*/
+
+/*beginning of footer*/
+footer{
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+	gap:100px;
+}
+.footer-links div{
+    width: 23%;
+}
+.footer-links h4{
+    margin-bottom: 10px;
+}
+.footer-links ul{
+    list-style-type: none;
+    padding: 0;
+}
+.footer-links ul li{
+    margin-bottom: 5px;
+}
+.footer-links ul li a{
+    color: white;
+    text-decoration: none;
+}
+.shop{
+	margin-left:50px;
+}
+.social img{
+	gap:20px;
+}
+footer p{
+    text-align: center;
+}
+/*<--footer end-->*/

@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.container{
+  width: 80%;
+  margin: 40px auto;
+  border: 1px solid black;
+  padding: 3%;
+}
+
+.title{
+  text-align: center;
+  font-size: 30px;
+}
+
+.box_container{
+   display: flex;
+   justify-content: center;
+   margin-top: 35px;
+}
+
+.colored_box{
+  background-color: rgb(213, 213, 213);
+  width: 80%;
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+
+.description{
+  width:100%;
+  text-align: justify;
+  font-size: 15px;
+}
+
+.first_term,.second_term,.third_term,.forth_term,.fifth_term,.sixth_term{
+  margin-top: 35px;
+}
+
+.title1,.title2,.title3,.title4,.title5,.title6{
+  font-size: 20px;
+  
+}
+
+.para1,.para2,.para3,.para4,.para5,.para6{
+  margin-top: 15px;
+  text-align: justify;
+  font-size:15px;
+}
+
+.first_term p,.second_term p,.third_term p,.forth_term p,.fifth_term p,.sixth_term p{
+  margin-left: 30px;
+}
+
+
+
+
+

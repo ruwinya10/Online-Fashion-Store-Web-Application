@@ -1,0 +1,127 @@
+*{
+  margin:0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body{
+  background:linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+.container {
+  width:70%;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 200px;
+}
+
+.title_div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title_div hr{
+  width: 60%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+.content {
+  display: flex;
+  margin-top: 60px;
+  border: 1px solid gray;
+  border-radius: 30px;
+  padding: 3% ;
+  background-color: white;
+}
+
+.form{
+  width: 60%;
+  padding: 15px 20px 0px 20px;
+}
+
+.info{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid rgb(180, 180, 180);
+}
+
+.image_holder{
+  margin-top: 20px;
+  height: 150px;
+  width: 80%;
+  padding-left: 10%;
+}
+
+form label {
+  font-size: 17px;
+}
+
+input,
+textarea{
+  width: 95%;
+  padding: 6px 8px;
+  border: 1px solid #a09f9f;
+  border-radius: 4px;
+  font-size: 14px;
+  align-items: flex-end;
+  margin-top: 7px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f5f4fa;
+
+}
+
+.contact_img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.contact_information{
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  align-items: center;
+}
+
+.contact_information p{
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #240132;
+}
+
+.contact_information button{
+  width: 80%;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 15px;
+
+  background-color: #ccdbf4;
+  border-radius: 10px;
+  border:none;
+  box-shadow: 0 4px 8px #490f55de;
+  font-weight: bold;
+  font-size: 14px; 
+}
+
+.submit_btn{
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(160, 84, 160);
+  padding: 5px 15px;
+  border: 1px solid rgb(160, 84, 160);
+  border-radius: 7px;
+  cursor: pointer;
+  margin: 3px 0px 0px 0px;
+}
+
+.submit_btn:active{
+  background-color: rgb(136, 136, 136);
+  transition: 0.1s;
+}
+

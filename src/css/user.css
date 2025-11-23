@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f0f4f8;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+}
+
+/* Container */
+.container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 0;
+  background-color: #fff;
+}
+
+/* Header */
+.header h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: #333;
+  margin-bottom: 30px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
+
+/* Content layout */
+.content_row {
+  display: flex;
+  gap: 60px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+/* User Profile Section */
+.user_profile {
+  width: 400px;
+  height: auto;
+  background-color: #4966a8;
+  padding: 40px;
+  border-radius: 15px;
+  color: white;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-left: 20px;
+}
+
+.profile_image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border: 4px solid white;
+  transition: transform 0.3s ease;
+}
+
+.profile_image:hover {
+  transform: scale(1.1);
+}
+
+.edit h2 {
+  font-size: 1.8rem;
+  margin: 20px 0;
+}
+
+.logout_btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 30px;
+  background-color: #ff6b6b;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.logout_btn:hover {
+  background-color: #e84118;
+}
+
+/* Profile Navigation */
+.profile_nav {
+  margin-top: 40px;
+}
+
+.profile_nav p {
+  font-size: 1.2rem;
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #333;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.profile_nav p i {
+  margin-right: 15px;
+  font-size: 1.5rem;
+  color: #4966a8;
+}
+
+.profile_nav p:hover {
+  background-color: #4966a8;
+  color: white;
+  transform: translateY(-5px);
+}
+
+.profile_nav a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.1rem;
+}
+
+/* User Details Section */
+.user_details {
+  flex-grow: 1;
+  background-color: #f0f4f8;
+  padding: 40px;
+  margin-bottom: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.user_details form label {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 10px;
+  display: block;
+  font-weight: 500;
+}
+
+.user_details form input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-color: #fff;
+  transition: border-color 0.3s ease;
+}
+
+.user_details form input:focus {
+  border-color: #4966a8;
+  outline: none;
+  box-shadow: 0 0 5px rgba(73, 102, 168, 0.3);
+}
+
+/* Buttons */
+#delete_btn, #update_btn, .cancel_btn {
+  font-size: 1.1rem;
+  padding: 12px 30px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+#delete_btn {
+  background-color: #ff6b6b;
+  color: white;
+}
+
+#delete_btn:hover {
+  background-color: #e84118;
+}
+
+#update_btn {
+  background-color: #4966a8;
+  color: white;
+}
+
+#update_btn:hover {
+  background-color: #3b5280;
+}
+
+.cancel_btn {
+  background-color: #dcdcdc;
+  color: #333;
+}
+
+.cancel_btn:hover {
+  background-color: #c1c1c1;
+}
+
+/* Last row button alignment */
+.last_row {
+  margin-top: 40px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 25px;
+}

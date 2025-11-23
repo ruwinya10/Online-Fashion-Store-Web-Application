@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background: #fefefe;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    background-color: #ffe9e9;
+    border-radius: 0;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+
+/* Register Container */
+.register_container {
+    margin: 30px 50px 30px 220px;
+    display: flex;
+    width: 70%;
+    height: 60%;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.register_form {
+    width: 50%;
+    height: 50%;
+    padding: 70px;
+    background-color: #fabdb6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+	transition: background-color 0.3s ease;
+}
+
+.register_form:hover {
+    background-color: #f79f9f;
+}
+
+.register_form h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.register_form p {
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.input_group {
+    display: flex;
+    gap: 10px;
+}
+
+input[type=text], input[type=email], input[type=password] {
+    width: 100%;
+    max-width: 400px;
+    height: 50px;
+    margin-bottom: 20px;
+    padding: 0 20px;
+    border: 2px solid #ccc;
+    border-radius: 30px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input[type=text]:focus, input[type=email]:focus, input[type=password]:focus {
+    border-color: #ff7293;
+    box-shadow: 0 0 5px rgba(255, 114, 147, 0.5);
+}
+
+.checkbox_container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.checkbox_container input {
+    margin-right: 10px;
+}
+
+.checkbox_container label {
+    font-size: 14px;
+    color: #731d54;
+}
+
+.checkbox_container a {
+    color: #ff7293;
+    text-decoration: none;
+}
+
+input[type=submit] {
+    width: 100%;
+    max-width: 400px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type=submit]:hover {
+    background-color: #731d54;
+}
+
+.login_prompt {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.login_prompt a {
+    color: #731d54;
+    text-decoration: underline;
+}
+
+.register_img {
+    width: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

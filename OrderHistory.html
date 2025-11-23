@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Order History - Trendify</title>
+        <link rel="stylesheet" href="src/css/OrederHistory.css">
+        <link rel="stylesheet" href="src/css/headerfooter.css">
+		<link rel="shortcut icon" href="src/images/logo7.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" 
+              href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+              integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+              crossorigin="anonymous" 
+              referrerpolicy="no-referrer" />
+    </head>
+
+    <body>
+
+        <header>
+			<div class="header">
+			  <div class="logo_box"><img src="src/images/logo3.png" width=150px></div>
+				<div class="nav_bar">
+				  <center>
+					<div class="search"><i class="fa fa-search" aria-hidden="true"></i><input type="text" name="search" placeholder="Search Items"></div>
+					  <a href="home.php">Home</a>
+					  <a href="women.php">Women</a>
+					  <a href="men.php">Men</a>
+					  <a href="kids.php">Kids</a>
+					  <a href="newArrival.php">New Arrivals</a>
+				  </center>
+				</div>
+				<div class="user-cart">
+				  <div class="icons">
+					<a href="profile.php" style="text-decoration:none";><img src="src/images/user-r.png" width=55px></a>
+				  </div>
+				  <div class="icons">
+					<a href="cart.php" style="text-decoration:none";><img src="src/images/shopcart-r.png" width=60px></a>
+				  </div>
+				</div>	
+			</div>
+		  </header>
+        
+        <h1 class="title"><center>Order History</center></h1>
+            
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col">
+
+                        <div class="orderId">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                            <input type="text" placeholder="Search by Order ID">
+                        </div>
+                        <div class="inputBox">
+                            <label for="">Order Date :</label>
+                            <select name="" id="">
+                                <option value="">Last 30 days</option>
+                                <option value="Last 6 months">Last 6 months</option>
+                                <option value="Last Year">Last Year</option>
+                            </select>
+                        </div>
+
+                        <div class="inputBox">
+                            <label for="">Order Status :</label>
+                            <select name="" id="">
+                                <option value="">Choose Status</option>
+                                <option value="Processing">Processing</option>
+                                <option value="Shipped">Shipped</option>
+                                <option value="Delivered">Delivered</option>
+                                <option value="Returned">Returned</option>
+                                <option value="All">All</option>
+                            </select>
+                        </div>
+
+                        <div class="inputBox">
+                            <label for="">Sort By :</label>
+                            <select name="" id="">
+                                <option value="">Choose</option>
+                                <option value="Newest First">Newest First</option>
+                                <option value="Oldest First">Oldest First</option>
+                                <option value="Highest Value First">Highest Value First</option>
+                                <option value="Lowest Value First">Lowest Value First</option>
+                            </select>
+                        </div>
+
+                    </div>
+
+                    <div class="col">
+
+                        <table>
+                            <center>
+
+                            <th>Order ID</th>
+                            <th>Item Codes</th>
+                            <th>Quantity</th>
+                            <th>Date</th>
+                            <th>Price</th>
+                            <th>View Order</th>
+
+                            <tr>
+                                <td>#45281</td>
+                                <td>03450<br>04678<br>08657<br>04738</td>
+                                <td>5</td>
+                                <td>2024-10-05</td>
+                                <td>$75.00</td>
+                                <td>
+                                    <a href="OrderDetails.html">
+                                        <button>VIEW DETAILS</button>
+                                    </a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>#34657</td>
+                                <td>07546<br>04825</td>
+                                <td>2</td>
+                                <td>2024-09-20</td>
+                                <td>$30.00</td>
+                                <td>
+                                    <a href="#">
+                                        <button>VIEW DETAILS</button>
+                                    </a>
+                                </td>
+                            </tr>
+
+                            </center>
+                        </table>
+                    </div>
+                </div>
+
+            </div>
+            <footer>
+                <div class="footer-links">
+                  <div class="shop">
+                    <h4>Shop</h4>
+                      <ul>
+                        <li><a href="men.php">Men</a></li>
+                        <li><a href="women.php">Women</a></li>
+                        <li><a href="kids.php">Kids</a></li>
+                        <li><a href="newArrival.php">New Arrivals</a></li>
+                      </ul>
+                  </div>
+                
+                  <div class="quick-links">
+                    <h4>Quick Links</h4>
+                      <ul>
+                        <li><a href="about_us.html">About Us</a></li>
+                        <li><a href="contact.html">Contact us</a></li>
+                        <li><a href="feedback.html">Feedback</a></li>
+                      </ul>
+                  </div>
+                  
+                  <div class="online-info">
+                    <h4>Online Information</h4>
+                      <ul>
+                        <li><a href="t&c.html">Terms and Conditions</a></li>
+                        <li><a href="privacypolicy.html">Privacy Policy</a></li>
+                        <li><a href="exchangepolicy.html">Return and Exchange</a></li>
+                      </ul>
+                  </div>
+                
+                  <div class="social">
+                    <h4>Find Us On :</h4>
+                    <a href="https://www.facebook.com"><img src="src/images/facebook_logo.webp" alt="Facebook" width=47px></a>
+                    <a href="https://www.whatsapp.com"><img src="src/images/whatsapp-r.png" alt="WhatsApp" width=52px></a>
+                    <a href="https://www.twitter.com"><img src="src/images/twitter_l.webp" alt="Twitter" width=52px></a>
+                  </div>	
+                </div>
+                <p>© Copyright 2024</p>
+              </footer>
+
+
+    </body>

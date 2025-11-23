@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.container{
+  width: 80%;
+  margin: 40px auto;
+  border: 1px solid black;
+  padding: 3%;
+}
+
+hr {
+  color: #000000;
+  background-color: #000000;
+  height: 1px;
+  border: none;
+}
+
+.title{
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.description{
+  margin-top: 35px;
+  width:100%;
+  text-align: justify;
+  font-size: 15px;
+}
+
+.first,.second,.third,.forth,.fifth,.sixth{
+  margin-top: 35px;
+}
+
+.title1,.title2,.title3,.title4,.title5,.title6{
+  font-size: 20px;
+}
+
+.para1,.para2,.para3,.para4,.para5,.para6{
+  margin-top: 15px;
+  text-align: justify;
+  font-size: 15px;
+}
+
+.fa-circle{
+  font-size: 14px;
+  margin-right: 15px;
+  margin-bottom: 12px;
+  color: gray;
+}
+.first p,.second p,.third p,.forth p,.fifth p,.sixth p{
+  margin-left: 35px;
+}
